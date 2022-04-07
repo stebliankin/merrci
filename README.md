@@ -1,5 +1,5 @@
 # MERRCI
-Pipeline that Combines Metagenome, Resistome, Replicome for Causal Inferencing (MERRCI)
+Pipeline that combines Metagenome, Resistome, Replicome for Causal Inferencing (MERRCI)
 
 MERRCI is a novel scalable pipeline with a two-step process of establishing a causal connection between microbiome variables.
 The first step involves computing microbial metagenomics composition (MMC), antibiotic resistance (ABR) profiles,
