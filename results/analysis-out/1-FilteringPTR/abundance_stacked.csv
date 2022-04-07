@@ -1,0 +1,51 @@
+Species,Abundance,Group
+Klebsiella pneumoniae.abundance,0.271579203,AC
+Escherichia coli.abundance,0.19171133,AC
+Enterococcus faecalis.abundance,0.13357639,AC
+Staphylococcus epidermidis.abundance,0.119422622,AC
+Enterobacter cloacae.abundance,0.054771672,AC
+Enterobacter hormaechei.abundance,0.041225849,AC
+Klebsiella oxytoca.abundance,0.040824452,AC
+Klebsiella quasipneumoniae.abundance,0.028797138,AC
+Bifidobacterium longum.abundance,0.026300829,AC
+Citrobacter freundii.abundance,0.015966845,AC
+Klebsiella variicola.abundance,0.014123812,AC
+Enterococcus faecium.abundance,0.013604051,AC
+Klebsiella michiganensis.abundance,0.01121425,AC
+Veillonella parvula.abundance,0.010694928,AC
+Klebsiella aerogenes.abundance,0.008635601,AC
+Enterobacter roggenkampii.abundance,0.004969917,AC
+Enterobacter asburiae.abundance,0.003510925,AC
+Enterobacteriaceae bacterium S05.abundance,0.002273396,AC
+Clostridium perfringens.abundance,0.002020253,AC
+Klebsiella sp. M5al.abundance,0.001359348,AC
+Enterobacter sp. CRENT-193.abundance,0.001154715,AC
+Enterobacter sp. HK169.abundance,0.000849191,AC
+Enterobacter sp. DKU_NT_01.abundance,0.000828178,AC
+Citrobacter.abundance,0.000579835,AC
+Bacteroides fragilis.abundance,5.26825E-06,AC
+Klebsiella pneumoniae.abundance,0.22272254,CC
+Escherichia coli.abundance,0.255475282,CC
+Enterococcus faecalis.abundance,0.120474327,CC
+Staphylococcus epidermidis.abundance,0.045939406,CC
+Enterobacter cloacae.abundance,0.077386929,CC
+Enterobacter hormaechei.abundance,0.064075629,CC
+Klebsiella oxytoca.abundance,0.039472652,CC
+Klebsiella quasipneumoniae.abundance,0.005284642,CC
+Bifidobacterium longum.abundance,0.021465046,CC
+Citrobacter freundii.abundance,0.005932533,CC
+Klebsiella variicola.abundance,0.012010104,CC
+Enterococcus faecium.abundance,0.053486181,CC
+Klebsiella michiganensis.abundance,0.013817358,CC
+Veillonella parvula.abundance,0.01005103,CC
+Klebsiella aerogenes.abundance,0.015817107,CC
+Enterobacter roggenkampii.abundance,0.005658615,CC
+Enterobacter asburiae.abundance,0.003975787,CC
+Enterobacteriaceae bacterium S05.abundance,0.000475703,CC
+Clostridium perfringens.abundance,0.012022665,CC
+Klebsiella sp. M5al.abundance,0.001761945,CC
+Enterobacter sp. CRENT-193.abundance,0.002195544,CC
+Enterobacter sp. HK169.abundance,0.000788846,CC
+Enterobacter sp. DKU_NT_01.abundance,0.001051344,CC
+Citrobacter.abundance,0.000291764,CC
+Bacteroides fragilis.abundance,0.008367023,CC
