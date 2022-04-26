@@ -10,8 +10,8 @@ between the computed MMC, PTR, ABR, and the clinical variables.
 
 The pipeline consist of three modules:<br>
 
-* [A-microbiome_profiles](https://github.com/stebliankin/RAPToR/tree/master/A-microbiome_profiles) - Compute resistome, compositional, and replicome profiles from metagenomic samples;<br>
-* [B-Causality](https://github.com/stebliankin/RAPToR/tree/master/B-Causality) Apply causal inference to PTR, microbial profile, resistome profile, and clinical variables <br>
+* [A-microbiome_profiles](https://github.com/stebliankin/merci/tree/master/A-microbiome_profiles) - Compute resistome, compositional, and replicome profiles from metagenomic samples;<br>
+* [B-Causality](https://github.com/stebliankin/merci/tree/master/B-Causality) Apply causal inference to PTR, microbial profile, resistome profile, and clinical variables <br>
 
 Each of the models has detailed instructions on how to run the parts of the pipeline.
 
