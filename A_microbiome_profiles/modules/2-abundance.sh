@@ -21,19 +21,29 @@
 
 mkdir -p $RESULTS_DIR
 
-rm -f $ABUNDANCE_FILE
-rm -f $GENOMES_LIST
+ID=$1
 
-echo "  [" `date '+%m/%d/%y %H:%M:%S'` "] Starting calculating the abundance "$PARTITION
+COV_CUTOFF=80
+
+SAM_DIR="./SAM_files"
+mkdir -p $SAM_DIR
+
+
+echo "[" `date '+%m/%d/%y %H:%M:%S'` "] Quantifying abundance for ${ID}..."
+
+SAM_PATH="${SAM_DIR}/${ID}.sam"
+
+## compute coverage
+samtools sort $SAM_PATH > $SAM_PATH.sorted.sam
+samtools coverage $SAM_PATH.sorted.sam > ${RESULTS_DIR}/${ID}-coverage.txt
+
+let N_READS=$(wc -l $M1 | awk '{print $1}')/4
+
+echo "  [" `date '+%m/%d/%y %H:%M:%S'` "] Number of reads: ${N_READS}"
 
 
 
-python3 $SCRIPTS_DIR"/utilities/abundance.py" --SAM $SAM_DIR"/"$SAM_FILE \
-                                              --COV_CUTOFF $COV_CUTOFF --GR_COV $GR_COV \
-                                              --OUTPUT_ABUNDANCE $ABUNDANCE_FILE \
-                                              --OUTPUT_LIST $GENOMES_LIST \
 
-echo "  [" `date '+%m/%d/%y %H:%M:%S'` "] Done with calculating abundance "$PARTITION
 
 
 
