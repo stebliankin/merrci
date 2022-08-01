@@ -110,14 +110,15 @@ for ID in $(cat $SAMPLES_FILE); do
     bowtie2 --threads $THREADS --local --very-fast-local --no-discordant --no-mixed --no-unal -q \
          -x $INDEX_ABR -1 $M1 -2 $M2 > $SAM_PATH
 
-    python3 ./modules/abundance_abr.py --SAM $SAM_PATH \
-                    --COV_CUTOFF 0.8 \
-                    --N_READS $N_READS \
-                    --OUTPUT_ABUNDANCE $OUT_ABUNDANCE
+    ./modules/2-abundance.sh $ID
 
-    rm $SAM_PATH
+
 done
 
-# Combine ABR
-pythone3 modules/combineABR.py
+# Combine abundance files into a single profile
+python3 ./modules/abundance.py --ABUNDANCE_DIR $OUT_ABR \
+                    --COV_CUTOFF 0.8 \
+                    --N_READS $N_READS \
+                    --OUTPUT_ABUNDANCE $OUTPUT_ABUNDANCE
+
 
