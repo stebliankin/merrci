@@ -27,7 +27,4 @@ Each of the models has detailed instructions on how to run the parts of the pipe
 
 More information about the method can be found in the following paper:
 
-"A novel approach for combining metagenome, resistome, replicome, and causal inference to determine microbial survival strategies against antibiotics" - Vitalii Stebliankin, Musfiqur Sazal, Camilo Valdes, Kalai Mathee, and GiriNarasimhan (Under Review, 2022)
-
-Preprint:
-https://www.biorxiv.org/content/10.1101/2020.05.21.108514v1
+Stebliankin, Vitalii, Musfiqur Sazal, Camilo Valdes, Kalai Mathee, and Giri Narasimhan. "A novel approach for combining the metagenome, metaresistome, metareplicome and causal inference to determine the microbes and their antibiotic resistance gene repertoire that contribute to dysbiosis." Microbial Genomics 8, no. 12 (2022): 000899.
